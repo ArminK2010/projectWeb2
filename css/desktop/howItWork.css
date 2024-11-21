@@ -1,0 +1,138 @@
+div.howItWork {
+  width: 100%;
+  background-color: #f4f6fc;
+  div.title {
+    position: absolute;
+    width: 405px;
+    top: 888px;
+    left: 165px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: poppins;
+    }
+    p.lorem {
+      font-size: 16px;
+      font-weight: 400;
+      color: grey;
+      font-family: poppins;
+      padding: unset;
+    }
+    p.btn {
+      color: #2405f2;
+      cursor: pointer;
+      font-family: poppins;
+      padding: unset;
+    }
+  }
+  div.right {
+    width: 656px;
+    position: absolute;
+    top: 888px;
+    left: 712px;
+    div.card {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+
+      div.cardOne {
+        width: 328px;
+        position: absolute;
+        left: 00px;
+        h2 {
+          font-size: 32px;
+          font-weight: 500;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+        }
+        p.lorem {
+          font-size: 16px;
+          font-weight: 400;
+          color: gray;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+          padding: unset;
+        }
+      }
+      div.cardTow {
+        width: 328px;
+        padding: 50px 0px 0px 50px;
+        box-sizing: border-box;
+        position: absolute;
+        left: 400px;
+        h2 {
+          font-size: 32px;
+          font-weight: 500;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+        }
+        p.lorem {
+          font-size: 16px;
+          font-weight: 400;
+          color: gray;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+          padding: unset;
+        }
+      }
+      div.cardThree {
+        width: 328px;
+        padding-top: 50px;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+        h2 {
+          font-size: 32px;
+          font-weight: 500;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+        }
+        p.lorem {
+          font-size: 16px;
+          font-weight: 400;
+          color: gray;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+          padding: unset;
+        }
+      }
+      div.cardfour {
+        width: 328px;
+        padding: 50px 0px 0px 50px;
+        box-sizing: border-box;
+        position: absolute;
+        left: 400px;
+        top: 100px;
+        h2 {
+          font-size: 32px;
+          font-weight: 500;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+        }
+        p.lorem {
+          font-size: 16px;
+          font-weight: 400;
+          color: gray;
+          padding-top: 16px;
+          box-sizing: border-box;
+          font-family: poppins;
+          padding: unset;
+        }
+      }
+    }
+  }
+}

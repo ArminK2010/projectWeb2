@@ -1,0 +1,54 @@
+div.process {
+  width: 100%;
+  height: 400px;
+  margin-top: 128px;
+  padding: 120px 160px 0px 160px;
+  box-sizing: border-box;
+  h1 {
+    padding-left: 500px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  div.card {
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    div.cardOne {
+      width: 300px;
+      height: 100%;
+    }
+    div.cardTwo {
+      width: 300px;
+      height: 100%;
+    }
+    div.cardThree {
+      width: 300px;
+      height: 100%;
+    }
+    div.cardForu {
+      width: 300px;
+      height: 100%;
+    }
+  }
+}
+h2 {
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+}
+p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  box-sizing: border-box;
+
+}

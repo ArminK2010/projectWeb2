@@ -1,0 +1,21 @@
+div.pricing {
+  width: 100%;
+  padding: 128px 520px 0px 700px;
+  box-sizing: border-box;
+  h2 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    padding-left: 75px;
+    box-sizing: border-box;
+  }
+  p {
+    width: 580px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+}

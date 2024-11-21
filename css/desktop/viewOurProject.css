@@ -1,0 +1,54 @@
+div.ourProject {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  div.header {
+    width: 1280px;
+    position: absolute;
+    top: 1549px;
+    left: 160px;
+    div.left {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        font-family: poppins;
+
+    }
+    div.right {
+      font-size: 16px;
+      font-weight: 500;
+      width: 90px;
+      position: absolute;
+      top: 20px;
+      left: 1317px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      font-family: poppins;
+
+    }
+  }
+  div.images {
+    width: 85%;
+    height: 600px;
+    position: absolute;
+    top: 1700px;
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    div.left{
+        width: 60%;
+        height: 100%;
+    }
+    div.right{
+       img.image3{
+        padding-top: 25px;
+        padding-left: 10px ;
+        box-sizing: border-box;
+        
+       }
+    }
+  }
+}

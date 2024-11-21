@@ -1,0 +1,81 @@
+header{
+    width: 100%;
+    background-color: var(--mainbgcolor);
+    padding: 16px 160px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row  nowrap;
+    justify-content: center;
+    align-items: center;
+    div.left{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    div.right{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        div.menu{
+            width: 80%;
+            height: 100%;
+            nav{
+                width: 100%;
+                height: inherit;
+                ul{
+                    width: inherit;
+                    height: inherit;
+                    list-style: none;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: end;
+                    align-items: center;
+                    gap: 32px;
+                    padding-right: 24px;
+                    box-sizing: border-box;
+                    li{
+                        width: fit-content;
+                        a{
+                            font-family: poppins;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: var(--textColor);
+                            text-decoration: none;
+                            text-transform: capitalize;
+                            &.activemenuITEM{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div.contactBtn{
+            width: 25%;
+            height: 100%;
+            padding-left: 24px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: white;
+                font: 16px;
+                font-weight: 500;
+                font-family: poppins;
+                div.container{
+                     width: fit-content;
+                     padding: 16px 48px;
+                     border: 2px solid #f4f6fc33;
+                     border-radius: 41px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+div.testimonials {
+  width: 100%;
+  background-color: #f9fafd;
+  position: absolute;
+  top: 3600px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  div.left {
+    width: 30%;
+    padding: 40px 0px 0px 160px;
+    box-sizing: border-box;
+    div.title {
+      width: 330px;
+      h2 {
+        font-family: Poppins;
+        font-size: 38px;
+        font-weight: 600;
+        text-align: left;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        color: grey;
+        padding-top: 16px;
+        box-sizing: border-box;
+      }
+    }
+  }
+  div.right {
+    width: 70%;
+    div.title {
+      width: 100%;
+      p {
+        width: 930px;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 135px;
+        color: gray;
+      }
+    }
+    div.image {
+      width: 100%;
+      box-sizing: border-box;
+      div.profile {
+        width: 250px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        div.img {
+          width: 40%;
+          padding: 10px 14px 0px 20px;
+          box-sizing: border-box;
+          img {
+            border-radius: 50%;
+          }
+        }
+        div.title {
+          width: 60%;
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

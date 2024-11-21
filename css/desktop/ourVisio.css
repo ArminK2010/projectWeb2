@@ -1,0 +1,47 @@
+div.ourVision {
+  width: 100%;
+  background-color: #eef4fa;
+  margin-top: 200px;
+  padding: 130px 160px 130px 160px;
+  box-sizing: border-box;
+  img.first {
+    padding-left: 1050px;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    position: absolute;
+    top: 2380px;
+  }
+  p.first {
+    width: 610px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 2450px;
+    color: #2b2b2b;
+  }
+  img.tow {
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  h2 {
+    position: absolute;
+    top: 2700px;
+    right: 600px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  p.Three{
+    width: 610px;
+    position: absolute;
+    top: 2780px;
+    right: 200px;
+    color: #2b2b2b;
+
+  }
+}

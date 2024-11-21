@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#app{
+    width: 100%;
+}
+@font-face {
+    font-family:manrope ;
+    src: url(../font/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:poppins ;
+    src: url(../font/Poppins-Medium.ttf);
+}

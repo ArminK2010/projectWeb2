@@ -1,0 +1,127 @@
+div.ourBlog {
+  width: 100%;
+  padding: 0px 168px 0px 158px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 5650px;
+  div.title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--fontColor);
+    padding-left: 150px;
+    box-sizing: border-box;
+  }
+  div.cards {
+    width: 100%;
+    padding-top: 64px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    div.cardOne {
+      width: 405px;
+      div.date {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 40px;
+        box-sizing: border-box;
+        color: gray;
+      }
+      div.title {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--fontColor);
+        padding: unset;
+      }
+      div.lorem {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        color: gray;
+        padding-top: 16px;
+        box-sizing: border-box;
+      }
+      div.BTN {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--fontColor);
+        padding-top: 32px;
+        box-sizing: border-box;
+      }
+    }
+    div.cardTow {
+      width: 405px;
+        div.date {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          padding-top: 40px;
+          box-sizing: border-box;
+          color: gray;
+        }
+        div.title {
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 400;
+          color: var(--fontColor);
+          padding: unset;
+        }
+        div.lorem {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 400;
+          color: gray;
+          padding-top: 16px;
+          box-sizing: border-box;
+        }
+        div.BTN {
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          color: var(--fontColor);
+          padding-top: 32px;
+          box-sizing: border-box;
+        }
+    }
+    div.cardThree {
+      width: 405px;
+      div.date {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 40px;
+        box-sizing: border-box;
+        color: gray;
+      }
+      div.title {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--fontColor);
+        padding: unset;
+      }
+      div.lorem {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        color: gray;
+        padding-top: 16px;
+        box-sizing: border-box;
+      }
+      div.BTN {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--fontColor);
+        padding-top: 32px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

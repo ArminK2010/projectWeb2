@@ -1,0 +1,120 @@
+div.faq {
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 4030px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  div.title {
+    width: 30%;
+    padding: 0px 0px 0px 160px;
+    box-sizing: border-box;
+    div.lorem {
+      width: 328px;
+      h2 {
+        font-family: Poppins;
+        font-size: 38px;
+        font-weight: 600;
+        text-align: left;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+        padding-top: 16px;
+        box-sizing: border-box;
+        color: #2405f2;
+      }
+    }
+  }
+  div.number {
+    width: 70%;
+    padding-top: 128px;
+    box-sizing: border-box;
+    div.QnOne {
+      width: 80%;
+      height: 100px;
+      padding-top: 40px;
+      box-sizing: border-box;
+      border-bottom: 2px solid #ECECF1;
+      h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        position: absolute;
+        top: 140px;
+        left: 690px;
+       
+      }
+    }
+    div.Qntow {
+      width: 80%;
+      height: 100px;
+      padding-top: 40px;
+      box-sizing: border-box;
+      border-bottom: 2px solid #ECECF1;
+      h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        position: absolute;
+        top: 240px;
+        left: 690px;
+      }
+    }
+    div.Qnthree {
+      width: 80%;
+      height: 100px;
+      padding-top: 40px;
+      box-sizing: border-box;
+      border-bottom: 2px solid #ECECF1;
+      h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        position: absolute;
+        top: 340px;
+        left: 690px;
+      }
+    }
+    div.Qnfour {
+      width: 80%;
+      height: 100px;
+      padding-top: 40px;
+      box-sizing: border-box;
+      border-bottom: 2px solid #ECECF1;
+      h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        position: absolute;
+        top: 440px;
+        left: 690px;
+      }
+    }
+    div.Qnfive {
+      width: 80%;
+      height: 100px;
+      padding-top: 40px;
+      box-sizing: border-box;
+      h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        position: absolute;
+        top: 540px;
+        left: 690px;
+      }
+    }
+  }
+}
